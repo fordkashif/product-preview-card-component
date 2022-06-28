@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
 
 .attribution { 
     font-size: 11px; 
     text-align: center; 
     margin-top: 5%; 
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montseratt', sans-serif;
+    font-weight: 500;
 }
 
 .attribution a { color: hsl(228, 45%, 44%); }
@@ -44,14 +44,16 @@ main{
     letter-spacing: 6px;
     text-transform: uppercase;
     font-size: 12px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montseratt', sans-serif;
+    font-weight: 500;
     color: gray;
 }
 .popup__title{
-    font-family: 'Merriweather', serif;
+    font-family: 'Fraunces', serif;
 }
 .popup__caption{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montseratt', sans-serif;
+    font-weight: 500;
     font-size: 14px;
 }
 .popup__price{
@@ -62,12 +64,13 @@ main{
 }
 .popup__price .discount__price{
     font-size: 2em;
-    font-family: 'Merriweather', serif;
+    font-family: 'Fraunces', serif;
     color: #3d8168;
 }
 .popup__price .original__price{
     text-decoration: line-through;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montseratt', sans-serif;
+    font-weight: 500;
     font-size: 12px;
 }
 
@@ -75,7 +78,8 @@ main{
     padding: 10px;
 }
 .popup__btn{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montseratt', sans-serif;
+    font-weight: 700;
     width: 100%;
     height: 40px;
     background: #3d8168;
